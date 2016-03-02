@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>trainign bootstrap</title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="header" class="container" style="background:red;">header</div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 hidden-xs" style="background:gray;">Side1</div>
+        <div class="col-sm-6 col-xs-6" style="background:green;">Main</div>
+        <div class="col-sm-3 col-xs-6" style="background:orange;">Side2</div>
+      </div>
+    </div>
+
+    <div class="container" style="padding:20px 0">
+      <table class="table table-stlyped table-hovor table-condensed">
+        <thead>
+          <tr><th>ID</th><th>Score</th></tr>
+        </thead>
+        <tbody>
+           <tr><td>@taguchi</td><td>200</td></tr>
+           <tr class="warning"><td>@fkoji</td><td>300</td></tr>
+           <tr><td>@dotinstall</td><td>240</td></tr>
+         </tbody>
+      </table>
+    </div>
+
+    <div class="container" style="padding:20px 0">
+      <form>
+        <div class="form-group has-error">
+          <label class="controll-label" for="email">EMAIL</label>
+          <input type="text" id="email" class="form-control" placeholder="email">
+          <span class="help-block">Error!</span>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="submit" class="btn btn-primary">
+        </div>
+      </form>
+    </div>
+
+    <div class="container" style="padding:20px 0">
+      <form class="form-inline" style="margin-bottom:15px;">
+        <div class="form-group">
+          <label class="sr-only controll-label" for="email">EMAIL</label>
+          <input type="text" id="email" class="form-control" placeholder="email">
+        </div>
+        <div class="form-group">
+          <input type="submit" value="submit" class="btn btn-primary">
+        </div>
+      </form>
+
+      <form class="form-horizontal" style="margin-bottom:15px;">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Email</label>
+          <div class="col-sm-4">
+            <input type="text" id="email" class="form-control" placeholder="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Email</label>
+          <div class="col-sm-4">
+            <input type="text" id="email" class="form-control" placeholder="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-4">
+            <input type="submit" value="submit" class="btn btn-primary">
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="container" style="padding:20px 0">
+      <p><i class="glyphicon glyphicon-book"></i> Book</p>
+      <button class="btn btn-primary"><i class="glyphicon glyphicon-book"></i> Push Me!</button>
+
+      <div class="btn-group">
+        <button class="btn btn-primary">Push Me!</button>
+        <button class="btn btn-success">Push Me!</button>
+        <button class="btn btn-info">Push Me!</button>
+      </div>
+
+
+
+
+    </div>
+
+    <div id="footer" class="container" style="background:blue;">footer</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
